@@ -1,0 +1,70 @@
+/* (chapter - 7)css styling link */
+
+body{
+    padding: 10;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(0, 0, 255);
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+
+a:hover, a:focus{
+    color:rgb(0, 0, 255);
+    opacity: 0.5;/*transparentcy*/
+    /* color: brown;
+    background-color: aqua; */
+
+}
+
+a:active {
+    color: green;
+}
+
+/*  ol{
+    list-style-type: upper-roman ;
+} */
+
+/* ol{
+    list-style-type: square;
+} */
+
+ol{
+    list-style-type: lower-alpha;
+}
+
+ul{
+    /* list-style-type: circle; */
+    text-align: center;
+    list-style-position: inside; 
+   /*  list-style-position: outside; */
+   /* list-style-image: url(../img/hello.png); */
+    color: blue;
+    /* list-style: square url(../img/hello.png) inside; */
+}
+
+/* ul li{
+    color:blueviolet;
+} */
+
+ul li:nth-child(2){
+    color: black;
+}
+
+/* ::marker{
+    color:blue;
+    font-size: 2em;
+} */
+
+ul li::marker{
+    color: blue;
+    font-size: 1.5em;
+    content: "==>";
+}

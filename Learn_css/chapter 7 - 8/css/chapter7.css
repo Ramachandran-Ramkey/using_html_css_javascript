@@ -1,0 +1,29 @@
+/* (chapter - 7)css styling link */
+
+body{
+    padding: 10;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(80, 16, 191);
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+
+a:hover, a:focus{
+    color:rgb(165, 165, 234);
+    opacity: 0.5;/*transparentcy*/
+    /* color: brown;
+    background-color: aqua; */
+
+}
+
+a:active {
+    color: green;
+}

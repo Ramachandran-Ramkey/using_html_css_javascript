@@ -1,0 +1,114 @@
+/*Begin Reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    min-height: 100vh;
+    background-color: aliceblue;
+     /* background-image: linear-gradient(to bottom,steelblue,pink,white); */
+    /* background-image: linear-gradient(to left,steelblue,pink,white); */
+   /*  background-image: url(../img/hello3.jpg), linear-gradient(to left, steelblue,white);
+    background-repeat: repeat-y, no-repeat;
+    background-position: right; */
+    background-size: 20%, auto; 
+
+    background: repeat-y right url(../img/hello3.jpg), no-repeat linear-gradient(to left, steelblue,white);
+}
+
+img{ display: block;}
+
+/* End Reset */
+
+/* Begin Utility classes */
+
+.nowrap{
+    white-space: nowrap;
+}
+
+.offscreen{
+    position: absolute;
+    left: -10000px;
+}
+
+
+/* End Utility classes */
+.container{
+    background-color: antiquewhite;
+    background-image: url(../img/hello2.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: bottom;
+    
+}
+
+.hero{
+    border-bottom: 2px solid rgb(7, 7, 7);
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+
+    background-color: rgba(0, 0, 0, 0.255);
+
+    /* background-color: antiquewhite;
+    background-image: url(../img/hello2.jpg);
+    background-repeat: repeat;
+    background-size: cover; */
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat; */
+    /* background-repeat: repeat-x; */
+}
+
+
+
+.h1{
+    font-size: 300%;
+    color:blue;
+    text-shadow: 2px 2px 5px black;
+   /*  background-color: rgba(0, 0, 0, 0.255); */
+    /* padding: 0.5rem;
+    border-radius: 20px; */
+}
+
+.profile-pic{
+    width: 35%;
+}
+
+.profile-pic img{
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    border: 2px double green;
+    border-radius: 50%;
+}
+
+.example{
+    margin-top: 1rem;
+    padding-left: 20px;
+    border: 2px solid red;
+}
+
+.example img{
+    width: 25%;
+    height: auto;
+}
+
+.clip{
+    font-weight: 800;
+    font-size: 10rem;
+    text-align: center;
+    background-image: url(../img/hello4.png);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* color: rgba(0, 0, 0, 0.342); */
+    color: transparent;
+    background-position: bottom;
+}

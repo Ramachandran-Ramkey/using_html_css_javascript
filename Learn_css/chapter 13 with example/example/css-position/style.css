@@ -1,0 +1,79 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 1.5rem;
+}
+section{
+    height: 200vw;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+header, footer{
+    color: whitesmoke;
+    font-size: 3rem;
+    text-align: center;
+    height: 80px;
+    padding: 1rem;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    font-size: 4rem;
+}
+
+footer{
+   /*  position: fixed; */
+   /* width: 100%; */
+   position: sticky;
+    bottom: 0;
+    font-size: 2rem;
+    background-color: black;
+    
+}
+
+a{
+    text-decoration: none;
+    color:azure;
+}
+
+a:hover, a:focus{
+    color: blueviolet;
+}
+
+a:active{
+    color: blue;
+}
+
+.dhuddu{
+    background-color: aqua;
+    font-size: inherit;
+    color: blue;
+    position: fixed;
+    top: 30%;
+    left: 0;
+    z-index: 1;
+}
+
+.ramu{
+    background-color: aqua;
+    font-size: inherit;
+    color: blue;
+    position: fixed;
+    top: 35%;
+    left: 0;
+    z-index: 1;
+}
